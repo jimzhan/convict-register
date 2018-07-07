@@ -2,6 +2,35 @@
   "name": "convict-register",
   "version": "0.3.1",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimzhan/convict-regster.git"
+  },
+  "author": "Jim Zhan <jim.zhan@me.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jimzhan/convict-regster/issues"
+  },
+  "homepage": "https://github.com/jimzhan/convict-regster#readme",
+  "keywords": [
+    "settings",
+    "require-context" ,
+    "convict",
+    "configuration",
+    "config",
+    "automatic",
+    "application",
+    "nodejs",
+    "node",
+    "configuration",
+    "configuration-management",
+    "schema",
+    "javascript",
+    "environment-variables",
+    "env",
+    "json-files",
+    "validation"
+  ],
   "scripts": {
     "precommit": "npx lint-staged",
     "commit": "git add . && npx git-cz",

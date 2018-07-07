@@ -1,6 +1,7 @@
 {
   "name": "convict-register",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "main": "lib/index.js",
   "scripts": {
     "precommit": "npx lint-staged",
     "commit": "git add . && npx git-cz",

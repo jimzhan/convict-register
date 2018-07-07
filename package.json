@@ -6,7 +6,9 @@
     "precommit": "npx lint-staged",
     "commit": "git add . && npx git-cz",
     "commitmsg": "npx commitlint -e $GIT_PARAMS",
-    "lint": "npx eslint --ext .js lib"
+    "lint": "npx eslint --ext .js lib",
+    "pretest": "npm run lint",
+    "test": "cross-env NODE_ENV=test jest --no-cache"
   },
   "commitlint": {
     "extends": [
@@ -35,24 +37,6 @@
       ]
     }
   },
-  "jest": {
-    "collectCoverage": true,
-    "collectCoverageFrom": [
-      "**/*.{js}",
-      "!**/node_modules/**"
-    ],
-    "coverageReporters": [
-      "html"
-    ],
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    }
-  },
   "lint-staged": {
     "src/**/*.{mjs,js}": [
       "eslint --fix",
@@ -61,6 +45,7 @@
   },
   "dependencies": {
     "convict": "^4.3.1",
+    "cross-env": "^5.2.0",
     "require-context": "^1.1.0",
     "rimraf": "^2.6.2"
   },

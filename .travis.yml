@@ -1,0 +1,24 @@
+language: node_js
+
+node_js:
+  - '10'
+
+before_script:
+  - git config --global user.email "jim.zhan@me.com"
+  - git config --global user.name "jimzhan"
+  - git remote rm origin
+  - git remote add origin https://jimzhan:${GH_TOKEN}@github.com/jimzhan/convict-register.git
+  - npm install --global makeshift
+  - makeshift -s @bcoe -r registry.npmjs.org
+
+install:
+  - npm install
+  - npm install --global standard-version
+
+script:
+  - npm run test
+
+after_success:
+  - standard-version --no-verify
+  - git push --follow-tags origin master
+  - npm publish --verbose

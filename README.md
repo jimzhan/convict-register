@@ -7,7 +7,7 @@ Registration helper for [node-convict](https://github.com/mozilla/node-convict),
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version)
 
-`convict-register` expands the `convict` further by automatically registering all of the modules under the given folder, so that we can easily create a modular settings structures by splitting domain settings via files for large scale application.
+`convict-register` expands the `convict` further by automatically registering all of the modules under the given folder, so that we can easily create a modular settings structures by splitting domain settings via files for large application.
 
 
 ## Install

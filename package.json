@@ -1,17 +1,17 @@
 {
   "name": "convict-register",
-  "version": "0.3.1",
+  "version": "0.5.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimzhan/convict-regster.git"
+    "url": "git+https://github.com/jimzhan/convict-register.git"
   },
   "author": "Jim Zhan <jim.zhan@me.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/jimzhan/convict-regster/issues"
+    "url": "https://github.com/jimzhan/convict-register/issues"
   },
-  "homepage": "https://github.com/jimzhan/convict-regster#readme",
+  "homepage": "https://github.com/jimzhan/convict-register#readme",
   "keywords": [
     "settings",
     "require-context" ,

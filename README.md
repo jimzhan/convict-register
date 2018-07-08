@@ -87,5 +87,5 @@ console.log(settings.get('db.username'))    // dbuser
 
 ```
 
-The `settings` object is essentially a `convict` object, meaning that you have still have full capacity of [convict](https://github.com/mozilla/node-convict).
+The `settings` object is essentially a `convict` object, meaning that you still have full capacity of [convict](https://github.com/mozilla/node-convict).
 

@@ -13,7 +13,7 @@ With [dotenv](https://github.com/motdotla/dotenv) together, `convict-register` e
 ## Install
 
 ```shell
-npm install convict
+npm install convict-register
 ```
 
 ## Usage

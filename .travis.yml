@@ -11,8 +11,9 @@ deploy:
     tags: true
 
 before_script:
+  - git config --global push.default matching
+  - git config --global user.name "Jim Zhan"
   - git config --global user.email "jim.zhan@me.com"
-  - git config --global user.name "jimzhan"
   - git remote rm origin
   - git remote add origin https://jimzhan:${GH_TOKEN}@github.com/jimzhan/convict-register.git
   - npm install --global makeshift && makeshift -s @bcoe -r registry.npmjs.org
@@ -23,7 +24,8 @@ install:
 script:
   - npm run test
   - npm run release
-  - git push && git push --tags
+  - git push origin master
+  - git push origin master --tags
 
 after_success:
   - npm publish --verbose

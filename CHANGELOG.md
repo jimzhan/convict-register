@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.5"></a>
+## 1.0.5 (2018-07-09)
+
+
+### Bug Fixes
+
+* **pkg:** remove broken img ref for `standard-version` ([f282832](https://github.com/jimzhan/convict-register/commit/f282832))
+* **travis:** fix incorrect github endpoint ([ebaa22b](https://github.com/jimzhan/convict-register/commit/ebaa22b))
+
+
+
 <a name="0.231.0"></a>
 # 0.231.0 (2018-07-09)
 

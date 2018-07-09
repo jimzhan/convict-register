@@ -1,6 +1,6 @@
 {
   "name": "convict-register",
-  "version": "0.5.0",
+  "version": "0.8.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "precommit": "npx lint-staged",
     "commit": "git add . && npx git-cz",
     "commitmsg": "npx commitlint -e $GIT_PARAMS",
+    "postcommit": "standard-version --no-verify && git push --follow-tags origin master",
     "lint": "npx eslint --ext .js lib",
     "pretest": "npm run lint",
     "test": "cross-env NODE_ENV=test jest --no-cache"

@@ -33,12 +33,13 @@
     "validation"
   ],
   "scripts": {
+    "preinstall": "git config --local push.followTags true",
     "precommit": "npx lint-staged",
+    "prepush": "standard-version --no-verify",
+    "pretest": "npm run lint",
     "commit": "git add . && npx git-cz",
     "commitmsg": "npx commitlint -e $GIT_PARAMS",
     "lint": "npx eslint --ext .js lib",
-    "pretest": "npm run lint",
-    "release": "standard-version --no-verify && git push --follow-tags origin master",
     "test": "cross-env NODE_ENV=test jest --no-cache"
   },
   "commitlint": {

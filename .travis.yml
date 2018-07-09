@@ -23,7 +23,7 @@ install:
 script:
   - npm run test
   - npm run release
-  - git push --follow-tags origin master
+  - git push && git push --tags
 
 after_success:
   - npm publish --verbose

@@ -1,6 +1,6 @@
 {
   "name": "convict-register",
-  "version": "0.48.0",
+  "version": "0.49.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",

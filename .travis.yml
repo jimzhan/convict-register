@@ -7,7 +7,7 @@ env:
   global:
   - USER="jimzhan"
   - EMAIL="jim.zhan@me.com"
-  - REPO="https://github.com/jimzhan/convict-register"
+  - REPO="convict-register"
   - GH_REPO="github.com/${USER}/${REPO}.git"
 
 deploy:

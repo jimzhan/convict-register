@@ -6,7 +6,6 @@ Registration helper for [node-convict](https://github.com/mozilla/node-convict),
 [![npm version](https://badge.fury.io/js/convict-register.svg)](https://www.npmjs.com/package/convict-register)
 [![JavaScript Style Guide](https://camo.githubusercontent.com/387caee7992b38dcac6cb23f87abf0ba139d7101/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f636f64652532307374796c652d616972626e622d626c75652e737667)](https://github.com/airbnb/javascript)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Standard Version](https://img.shields.io/badge/release-standard%20version-brightgreen.svg)](https://github.com/conventional-changelog/standard-version)
 
 With [dotenv](https://github.com/motdotla/dotenv) together, `convict-register` expands the `convict` further by automatically registering all of the modules under the given folder, so that we can easily create a modular settings structures by splitting domain settings via files for large application.
 

@@ -14,7 +14,7 @@
   "homepage": "https://github.com/jimzhan/convict-register#readme",
   "keywords": [
     "settings",
-    "require-context" ,
+    "require-context",
     "convict",
     "configuration",
     "config",
@@ -24,6 +24,7 @@
     "node",
     "configuration",
     "configuration-management",
+    "dotenv",
     "schema",
     "javascript",
     "environment-variables",
@@ -75,6 +76,7 @@
   "dependencies": {
     "convict": "^4.3.1",
     "cross-env": "^5.2.0",
+    "dotenv": "^6.0.0",
     "require-context": "^1.1.0",
     "rimraf": "^2.6.2"
   },

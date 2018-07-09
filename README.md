@@ -1,6 +1,6 @@
 # convict-register
 
-Registration helper for [node-convict](https://github.com/mozilla/node-convict), a featureful configuration management library for Node.js
+Registration helper for [node-convict](https://github.com/mozilla/node-convict), a featureful configuration management library for Node.js.
 
 [![build](https://travis-ci.org/jimzhan/convict-register.svg?branch=master)](https://travis-ci.org/jimzhan/convict-register)
 [![npm version](https://badge.fury.io/js/convict-register.svg)](https://www.npmjs.com/package/convict-register)

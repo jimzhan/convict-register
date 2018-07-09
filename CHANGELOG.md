@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# 1.1.0 (2018-07-09)
+
+
+### Bug Fixes
+
+* **pkg:** remove broken img ref for `standard-version` ([f282832](https://github.com/jimzhan/convict-register/commit/f282832))
+* **reference:** add main js file into package for ext. ref ([a718e95](https://github.com/jimzhan/convict-register/commit/a718e95))
+* **travis:** fix incorrect github endpoint ([ebaa22b](https://github.com/jimzhan/convict-register/commit/ebaa22b))
+
+
+### Features
+
+* **convict:** wrap registered values into convict settings ([4b74559](https://github.com/jimzhan/convict-register/commit/4b74559))
+* **dotenv:** add `dotenv` supports ([56291e3](https://github.com/jimzhan/convict-register/commit/56291e3))
+* **skeleton:** init. import with project skeleton ([906134c](https://github.com/jimzhan/convict-register/commit/906134c))
+* **travis:** enable travis supports along with test cases ([959b1c3](https://github.com/jimzhan/convict-register/commit/959b1c3))
+
+
+
 <a name="0.231.0"></a>
 # 0.231.0 (2018-07-09)
 

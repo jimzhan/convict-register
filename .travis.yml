@@ -3,20 +3,27 @@ language: node_js
 node_js:
   - '10'
 
+deploy:
+  provider: npm
+  email: jim.zhan@me.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+
 before_script:
   - git config --global user.email "jim.zhan@me.com"
   - git config --global user.name "jimzhan"
   - git remote rm origin
   - git remote add origin https://jimzhan:${GH_TOKEN}@github.com/jimzhan/convict-register.git
-  - npm install --global makeshift
-  - makeshift -s @bcoe -r registry.npmjs.org
+  - npm install --global makeshift && makeshift -s @bcoe -r registry.npmjs.org
 
 install:
   - npm install
-  - npm install --global standard-version
 
 script:
   - npm run test
+  - npm run release
+  - git push --follow-tags origin master
 
 after_success:
   - npm publish --verbose

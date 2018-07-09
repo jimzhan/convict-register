@@ -1,6 +1,6 @@
 {
   "name": "convict-register",
-  "version": "0.231.0",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
@@ -36,9 +36,9 @@
     "precommit": "npx lint-staged",
     "commit": "git add . && npx git-cz",
     "commitmsg": "npx commitlint -e $GIT_PARAMS",
-    "postcommit": "standard-version --no-verify && git push --follow-tags origin master",
     "lint": "npx eslint --ext .js lib",
     "pretest": "npm run lint",
+    "release": "standard-version --no-verify",
     "test": "cross-env NODE_ENV=test jest --no-cache"
   },
   "commitlint": {
@@ -79,7 +79,8 @@
     "cross-env": "^5.2.0",
     "dotenv": "^6.0.0",
     "require-context": "^1.1.0",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "standard-version": "^4.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/jimzhan/convict-register/compare/v1.1.2...v1.1.3) (2018-07-18)
+
+
+### Bug Fixes
+
+* **ci:** remove git command from preinstall ([0d4f21e](https://github.com/jimzhan/convict-register/commit/0d4f21e))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/jimzhan/convict-register/compare/v1.1.1...v1.1.2) (2018-07-09)
 

@@ -33,14 +33,13 @@
     "validation"
   ],
   "scripts": {
-    "preinstall": "git config --local push.followTags true",
     "precommit": "npx lint-staged",
-    "prepush": "standard-version --no-verify",
+    "prepush": "npx standard-version --no-verify",
     "pretest": "npm run lint",
     "commit": "git add . && npx git-cz",
     "commitmsg": "npx commitlint -e $GIT_PARAMS",
     "lint": "npx eslint --ext .js lib",
-    "test": "cross-env NODE_ENV=test jest --no-cache"
+    "test": "npx cross-env NODE_ENV=test jest --no-cache"
   },
   "commitlint": {
     "extends": [

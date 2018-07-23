@@ -79,6 +79,8 @@ module.exports = register(__dirname, false, {
 Using settings elsewhere (e.g. `main.js`):
 
 ```javascript
+dotenv.config()
+
 const settings = require('./settings')
 
 console.log(settings.get('port'))           // 9394

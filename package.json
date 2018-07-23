@@ -77,7 +77,6 @@
   "dependencies": {
     "convict": "^4.3.1",
     "cross-env": "^5.2.0",
-    "dotenv": "^6.0.0",
     "require-context": "^1.1.0",
     "rimraf": "^2.6.2",
     "standard-version": "^4.4.0"

@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.1"></a>
+## [1.2.1](https://github.com/jimzhan/convict-register/compare/v1.2.0...v1.2.1) (2018-08-10)
+
+
+### Bug Fixes
+
+* **dotenv:** remove dotenv for dynamic settings loading env ([5f10e0e](https://github.com/jimzhan/convict-register/commit/5f10e0e))
+* **git:** fix git conflict ([46b1df6](https://github.com/jimzhan/convict-register/commit/46b1df6))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/jimzhan/convict-register/compare/v1.1.3...v1.2.0) (2018-08-10)
 

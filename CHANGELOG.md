@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/jimzhan/convict-register/compare/v1.1.3...v1.2.0) (2018-08-10)
+
+
+### Features
+
+* **settings:** add class based settings supports with lazy loader ([7cde13f](https://github.com/jimzhan/convict-register/commit/7cde13f))
+
+
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/jimzhan/convict-register/compare/v1.1.2...v1.1.3) (2018-07-18)
 

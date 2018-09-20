@@ -1,8 +1,3 @@
-const lodash = require('lodash')
-const { config } = require('exnext-scripts')
+const { config } = require('esnext-scripts')
 
-module.exports = lodash.merge(config.eslint, {
-  rules: {
-
-  }
-})
+module.exports = config.eslint

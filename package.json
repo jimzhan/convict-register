@@ -33,13 +33,13 @@
     "validation"
   ],
   "scripts": {
-    "precommit": "npx lint-staged",
-    "prepush": "npx standard-version --no-verify",
+    "precommit": "lint-staged",
+    "prepush": "standard-version --no-verify",
     "pretest": "npm run lint",
-    "commit": "git add . && npx git-cz",
-    "commitmsg": "npx commitlint -e $GIT_PARAMS",
-    "lint": "npx esnext lint lib",
-    "test": "npx esnext test"
+    "commit": "git add . && git-cz",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "lint": "esnext lint lib",
+    "test": "esnext test"
   },
   "commitlint": {
     "extends": [
@@ -49,23 +49,6 @@
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
-    }
-  },
-  "eslintConfig": {
-    "root": true,
-    "extends": "airbnb-base",
-    "env": {
-      "node": true,
-      "jest/globals": true
-    },
-    "plugins": [
-      "jest"
-    ],
-    "rules": {
-      "semi": [
-        "error",
-        "never"
-      ]
     }
   },
   "lint-staged": {
@@ -79,7 +62,7 @@
     "convict": "^4.3.1",
     "cross-env": "^5.2.0",
     "dotenv": "^6.0.0",
-    "esnext-scripts": "^0.23.0",
+    "esnext-scripts": "latest",
     "globby": "^8.0.1",
     "lodash": "^4.17.10",
     "require-context": "^1.1.0",
